@@ -1,0 +1,25 @@
+.bg-custom-primary{
+    background-color:#051392 !important;
+}
+.scroll-custom-vertical{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.form-control-cad{
+    border-radius: 18px;
+    text-align: center;
+    align-items: center;
+}
+.form-control-cad-erro{
+    border: 1px solid red;
+    border-radius: 18px;
+    text-align: center;
+    align-items: center;
+}
+.box-form-control{
+    border: 1px groove rgba(128, 128, 128, 0.392);
+    border-radius: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 10px;
+}
