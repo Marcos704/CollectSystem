@@ -7,6 +7,9 @@ $con = new DBConnection();
 $con->connectionStart();
 //
 */
+require_once ("com.engcriasoftwares/arch/configurations/database/DBConnection.php");
+$conexao = new DBConnection();
+$conexao->connectionStart();
 ?>
 <!DOCTYPE html>
 <html lang="en">

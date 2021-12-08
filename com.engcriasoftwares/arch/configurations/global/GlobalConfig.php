@@ -6,7 +6,8 @@
     $endereco_empresa = " Estr. de Ribamar, 58 - Maiobão, São José de Ribamar - MA, 65110-000";
     $telefone_empresa = "(98)3274-5086";
     $email_suport = "suporteti@rederibeiro.com.br";
-    /*End Dados da Empresa*/
+    /*==============================================*/
+
 
     /*Variaveis de conexao dev */
     date_default_timezone_set('America/Sao_Paulo');

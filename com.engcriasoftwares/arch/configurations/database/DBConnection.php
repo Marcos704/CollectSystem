@@ -5,7 +5,7 @@
  * o uso do sistema CollectSystem
  */
 /**Import ui_alerts */
-include ("vendor/configurations/ui_interface/ui_alerts.php");
+include_once ('com.engcriasoftwares/arch/configurations/ui_interface/ui_alerts.php');
 
 class DBConnection {
     private $dbhost = "127.0.0.1";
@@ -15,7 +15,6 @@ class DBConnection {
     private $conexao;
     private $uiInterface;
     
-
     public function __construct() {
         date_default_timezone_set("America/Sao_Paulo");
         $this->uiInterface = new UIAlerts();
