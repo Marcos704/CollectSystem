@@ -26,7 +26,7 @@ class DBConnection {
                                             "$this->dbpassword");
             $this->conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }catch(PDOException $e){
-            $this->uiInterface->dangerMenssage($e->getCode(), $e->getMessage());
+            $this->uiInterface->successMenssage($e->getCode(), $e->getMessage());
         }
     }
 
